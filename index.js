@@ -137,4 +137,5 @@ const allProductContainer = document.getElementById("top-product-container")
 
 
 loadAllProducts2();
+loadAllProducts();
 loadAllCategories();
