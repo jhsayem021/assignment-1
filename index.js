@@ -4,7 +4,7 @@ const loadAllProducts = () =>{
     .then((res) => res.json())
     .then((data) => {
         allProducts = data;   
-        trendyProducts(data);
+        displayAllProducts(data);
     })
 }
 const loadAllProducts2 = () =>{
