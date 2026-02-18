@@ -31,14 +31,18 @@
           <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
            <li class="font-bold "><a href="index.html" class="focus:text-[#4832F6] text-[#000000]">Home</a></li>
           <li class="font-bold "><a href="allproduct.html" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
+          <li class="font-bold "><a href="#" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
+          <li class="font-bold "><a href="#" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
           </ul>
         </div>
         <a href="#" class="text-xl font-black text-[#6653F7]">SwiftCart</a>
       </div>
       <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
-          <li class="font-bold "><a href="index.html" class="focus:text-[#4832F6] text-[#000000]">Home</a></li>
+         <li class="font-bold "><a href="index.html" class="focus:text-[#4832F6] text-[#000000]">Home</a></li>
           <li class="font-bold "><a href="allproduct.html" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
+          <li class="font-bold "><a href="#" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
+          <li class="font-bold "><a href="#" class="focus:text-[#4832F6] text-[#000000]">Products</a></li>
         </ul>
       </div>
       <div class="navbar-end">
@@ -57,37 +61,30 @@
   <section>
     <div class="lg:w-9/12 mx-auto py-10">
       <h1 class="text-[#2E3643] text-4xl font-bold  mb-2 text-center">Our Products</h1>
-
-      <div id="categories" class="flex w-3/5 mx-auto py-8 justify-evenly">
-         <button class="btn border-1 border-[#3B25C1] hover:border-[#3B25C1] bg-[#FFFFFF] hover:bg-[#3B25C1] focus:bg-[#3B25C1] text-[#3B25C1] hover:text-[#FFFFFF] focus:text-[#FFFFFF]   rounded-full">  All</button>
+      <div class="flex justify-center">
+        <div id="categories" class="flex-wrap py-8">
+         
       </div>
+      </div>
+      <div id="product-container" class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  py-10 ">
 
-      <div id="service-cart-container" class=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6  py-10 ">
-                    
-        <!-- <div class="card bg-base-100 w-84 shadow-sm">
-          <figure>
-            <img src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp" alt="Shoes" />
-          </figure>
-          <div class="card-body">
-            <div class="flex justify-between items-center">
-              <div class="bg-[#E0E7FF] text-[#3B25C1] text-[11px] font-bold px-3 py-1 rounded-full  text-center"> <p>Men's Clothing</p></div>
-              <div class=""> <i class="fa-solid fa-star text-[#FED232]"></i>
-                <span class="text-[#5B6473]">3.9 (120)</span>
-              </div>
-            </div>
-            <h2 class="card-title -mb-2 mt-4 truncate text-overflow: ellipsis;" >
-              Card Title JKDNS NSJKDVS SJKDNCVSD SKJCV KSDMCOEW
-            </h2>
-            <p class="font-bold text-[15px]" >$125</p>
-            <div class="card-actions justify-between mt-5">
-              <button class="btn border-1 border-[#DBDEE4] hover:border-[#3B25C1] bg-[#FFFFFF] text-[#5B6473] hover:text-[#3B25C1] lg:w-34 w-28"> <i class="fa-regular fa-eye"></i> Default</button>
-              <button class="btn border-1 border-[#3B25C1] hover:border-[#3B25C1] bg-[#3B25C1] hover:bg-[#FFFFFF] text-white hover:text-[#3B25C1] lg:w-34 w-28 "> <i class="fa-solid fa-cart-plus"></i> Add</button>
-            </div>
-          </div>
-        </div> -->
-        
       </div>
     </div>
+    <!-- Open the modal using ID.showModal() method -->
+<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+  <div class="modal-box">
+    <div id="details-container">
+     
+    </div>
+    <div class="modal-action">
+      <form method="dialog">
+        <!-- if there is a button in form, it will close the modal -->
+        <button class="btn">Close</button>
+      </form>
+    </div>
+  </div>
+</dialog>
   </section>
 
   <!-- Footer and Newsletter -->
